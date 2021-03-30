@@ -52,7 +52,7 @@ body{
 }
 .content p{
     text-align: center;
-    font-size: large;
+    font-size: larger;
 }
 .center {
     display: block;
