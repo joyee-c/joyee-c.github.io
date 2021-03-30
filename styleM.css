@@ -42,37 +42,6 @@ body{
     color: rgb(160, 46, 114) !important;
 } 
 
-.sub-menu {
-    display: none;
-}
-
-.navigation ul li:hover .sub-menu {
-    display: block;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: -6px;
-    text-align: left;
-    background: white;
-    width: 130px;
-}
-
-.navigation ul li:hover .sub-menu ul {
-    display: block;
-    margin: 10px;
-    
-}
-
-.navigation ul li:hover .sub-menu ul li {
-    margin: 15px;
-    background: transparent;
-    display: block;
-    margin-left: -30px;
-}
-
-.navigation ul li:hover .sub-menu ul li a:hover {
-    color: rgb(80, 26, 58);
-    transition: color 0.5s;
-}
 
 /*Content*/
 .content {
