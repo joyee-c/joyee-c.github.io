@@ -62,14 +62,15 @@ body{
 }
 
 .personal{
+    width: 500px;
     background-color: white;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-left: 50px;
     margin-top:40px;
     text-align: left;
 }
 .statement{
-    padding-top:50px;
+    padding-top:300px;
     padding-bottom: 50px;
     padding-left: 50px;
 }
