@@ -52,7 +52,7 @@ body{
 }
 .content p{
     text-align: center;
-    font-size: medium;
+    font-size: small;
 }
 .center {
     display: block;
@@ -61,10 +61,10 @@ body{
     width: 50%; 
 }
 
-.mission-vision{
-    background-color: rgb(211, 114, 172);
-    margin-right: 900px;
-    margin-left: 10px;
+.personal{
+    background-color: white;
+    margin-right: 200px;
+    margin-left: 50px;
     margin-top:40px;
     text-align: left;
 }
