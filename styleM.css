@@ -52,7 +52,7 @@ body{
 }
 .content p{
     text-align: center;
-    font-size: small;
+    font-size: larger;
 }
 .center {
     display: block;
@@ -62,8 +62,8 @@ body{
 }
 
 .personal{
-    width: 50%;
     background-color: white;
+    font-size: smaller;
     margin-right: 100px;
     margin-left: 50px;
     margin-top:200px;
