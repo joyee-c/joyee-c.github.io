@@ -1,8 +1,8 @@
 body{
     margin: 0;
     font-family: 'Markazi Text', serif;
-    font-size: large;
     background-color: rgb(243, 239, 241);
+    font-size: large;
 }
 .container{
     display: grid;
@@ -50,10 +50,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
+    font-size: x-large;
 }
 .content p{
     text-align: center;
-    font-size: x-large;
 }
 .center {
     display: block;
