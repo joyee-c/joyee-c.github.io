@@ -35,7 +35,7 @@ body{
 }
 
 .navigation ul li a:hover {
-    color: rgb(80, 26, 58);
+    color: rgb(160, 46, 114);
     transition: color 0.5s;
 }
 
@@ -71,7 +71,7 @@ body{
 }
 
 .navigation ul li:hover .sub-menu ul li a:hover {
-    color: red;
+    color: rgb(160, 46, 114);
     transition: color 0.5s;
 }
 
