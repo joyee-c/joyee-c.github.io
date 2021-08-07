@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Markazi Text', serif;
-    font-size: x-large;
+    font-size: large;
     background-color: rgb(243, 239, 241);
 }
 .container{
@@ -53,7 +53,7 @@ body{
 }
 .content p{
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
 }
 .center {
     display: block;
