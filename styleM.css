@@ -3,6 +3,7 @@ body{
     font-family: 'Markazi Text', serif;
     font-size: large;
     background-color: rgb(243, 239, 241);
+    background-image: url('Images/codeG.png');
 }
 .container{
     display: grid;
