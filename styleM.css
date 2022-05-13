@@ -1,14 +1,12 @@
 body{
     margin: 0;
     font-family: 'Markazi Text', serif;
-    background-color: rgb(243, 239, 241);
+    background-color: rgb(134, 101, 59);
     font-size: large;
 }
 .container{
     display: grid;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('Images/codeG.PNG');
 } 
 
 /*Navigation*/
@@ -35,12 +33,12 @@ body{
 }
 
 .navigation ul li a:hover {
-    color: rgb(160, 46, 114);
+    color: rgb(134, 101, 59);
     transition: color 0.5s;
 }
 
 .active a {
-    color: rgb(160, 46, 114) !important;
+    color: rgb(134, 101, 59) !important;
 } 
 
 .sub-menu {
@@ -71,21 +69,35 @@ body{
 }
 
 .navigation ul li:hover .sub-menu ul li a:hover {
-    color: rgb(160, 46, 114);
+    color: rgb(134, 101, 59);
     transition: color 0.5s;
 }
 
 
 /*Content*/
 .content {
-    min-height: 1200px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
     padding-top: 100px;
+    margin: auto;
+    margin-top: 200px;
+    width: 60%;
     font-size: x-large;
 }
 .content p{
     text-align: center;
+}
+.picture img{
+    clip-path: circle();
+}
+.work{
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    font-size: x-large;
 }
 .center {
     display: block;
@@ -101,19 +113,4 @@ body{
     margin-left: 50px;
 }
 
-
-/*Responsiveness*/
-@media only screen and (max-width: 1150px) {
-    .quickLinks ul li {
-        margin: 20px 0px 5px 100px; 
-    } 
-    .navigation ul li em {
-        display: none;
-    } 
-  }
-  @media only screen and (max-width: 1440px) {
-    .navigation ul li em {
-        margin-left: -25px;
-    } 
-  }
 
