@@ -90,6 +90,7 @@ body{
 }
 .picture img{
     clip-path: circle();
+    position: fixed;
 }
 .work{
     background-color: whitesmoke;
