@@ -76,10 +76,13 @@ body{
 
 /*Content*/
 .content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    background-image: url("Images/Joy-LinkedIn.jpg");
     background-color: whitesmoke;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
     padding-top: 100px;
+    padding-left: 50px;
     margin: auto;
     margin-top: 200px;
     width: 60%;
@@ -87,10 +90,6 @@ body{
 }
 .content p{
     text-align: center;
-}
-.picture img{
-    clip-path: circle();
-    position: fixed;
 }
 .work{
     background-color: whitesmoke;
